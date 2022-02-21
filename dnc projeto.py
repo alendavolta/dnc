@@ -121,13 +121,13 @@ print (" Nº de turmas em imersão de proejetos", alunosip//400+1,"\n","Nº de t
        "Nº de turmas em sales and marketing", alunossms//400+1,"\n","Nº de turmas em produt management", alunosppm//400+1)
 print()
 #prints 5
-print ("Funil Capital", Capitalleads,Capitalopor, Capitalvendas)
-print ("Funil cidades", cidadeleads,cidadeopor, cidadevendas)
 
-#prints 6
-#6 print ("CPL CAPITAL",cplcapitalt,"CPL cidades", cplcidadet)
-print ("CPL TOTAL",cpltotal)
+print ("Funil Capital",SAM*0.7, Capitalleads,Capitalopor, Capitalvendas)
+print ("Funil cidades",SAM*0.3, cidadeleads,cidadeopor, cidadevendas)
 print()
+#prints 6
+print ("CPL CAPITAL",cplcapitalt,"CPL cidades", cplcidadet)
+print ("CPL TOTAL",cpltotal)
 #prints 7
 print ("Custo legendas", Custolegendas)
 #prints 8
@@ -137,14 +137,5 @@ print()
 print ("Faturamento em brl", faturamento)
 #prinst 10
 print ("Faturamento em pesos chilenos", faturamentopesos)
-
-
-
-
-
-
-
-
-
 
 
